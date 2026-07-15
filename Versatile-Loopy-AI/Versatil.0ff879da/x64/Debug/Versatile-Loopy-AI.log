@@ -1,5 +1,4 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\users\ajklb\source\repos\versatile-loopy-ai\x64\debug\versatile-loopy-ai.exe' is denied.
-  Versatile-Loopy-AI.cpp
+﻿  Versatile-Loopy-AI.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
@@ -12,7 +11,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.3520
   (compiling source file 'Versatile-Loopy-AI.cpp')
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54):
       the template instantiation context (the oldest one first) is
-          C:\Users\ajklb\source\repos\Versatile-Loopy-AI\running.ipp(66,19):
+          C:\Users\ajklb\Desktop\Versatile-ai\Versatile-Loopy-AI\running.ipp(66,19):
           see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const node_id,float>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<_Ty2&,int>(_Ty2 &,int &&)' being compiled
           with
           [
@@ -22,7 +21,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.3520
               _Alloc=std::allocator<std::pair<const node_id,float>>,
               _Ty2=node_id
           ]
-              C:\Users\ajklb\source\repos\Versatile-Loopy-AI\running.ipp(66,26):
+              C:\Users\ajklb\Desktop\Versatile-ai\Versatile-Loopy-AI\running.ipp(66,26):
               see the first reference to 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace' in 'runtime::run_model'
           with
           [
@@ -72,4 +71,4 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.3520
               _Other2=int
           ]
   
-LINK : fatal error LNK1104: cannot open file 'C:\Users\ajklb\source\repos\Versatile-Loopy-AI\x64\Debug\Versatile-Loopy-AI.exe'
+  Versatile-Loopy-AI.vcxproj -> C:\Users\ajklb\Desktop\Versatile-ai\Versatile-Loopy-AI\x64\Debug\Versatile-Loopy-AI.exe
