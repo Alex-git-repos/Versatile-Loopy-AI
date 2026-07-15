@@ -1,0 +1,75 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\users\ajklb\source\repos\versatile-loopy-ai\x64\debug\versatile-loopy-ai.exe' is denied.
+  Versatile-Loopy-AI.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         ]
+  (compiling source file 'Versatile-Loopy-AI.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ajklb\source\repos\Versatile-Loopy-AI\running.ipp(66,19):
+          see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const node_id,float>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<_Ty2&,int>(_Ty2 &,int &&)' being compiled
+          with
+          [
+              _Kty=node_id,
+              _Ty=float,
+              _Pr=std::less<node_id>,
+              _Alloc=std::allocator<std::pair<const node_id,float>>,
+              _Ty2=node_id
+          ]
+              C:\Users\ajklb\source\repos\Versatile-Loopy-AI\running.ipp(66,26):
+              see the first reference to 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace' in 'runtime::run_model'
+          with
+          [
+              _Kty=node_id,
+              _Ty=float,
+              _Pr=std::less<node_id>,
+              _Alloc=std::allocator<std::pair<const node_id,float>>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xtree(1048,30):
+          see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const node_id,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<node_id&,int>(node_id &,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const node_id,float>>,
+              _Kty=node_id,
+              _Ty=float,
+              _Pr=std::less<node_id>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xtree(1023,49):
+          see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const node_id,float>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<node_id&,_Ty>(_Alnode &,std::_Tree_node<std::pair<const node_id,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,node_id &,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const node_id,float>>,
+              _Ty=int,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const node_id,float>,std::_Default_allocator_traits<std::allocator<std::pair<const node_id,float>>>::void_pointer>>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xtree(830,25):
+          see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,node_id&,int>(_Alloc &,_Objty *const ,node_id &,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const node_id,float>,std::_Default_allocator_traits<std::allocator<std::pair<const node_id,float>>>::void_pointer>>,
+              _Ty=std::pair<const node_id,float>,
+              _Objty=std::pair<const node_id,float>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(730,14):
+          see reference to function template instantiation '_Ty *std::construct_at<_Objty,node_id&,int>(_Ty *const ,node_id &,int &&) noexcept' being compiled
+          with
+          [
+              _Ty=std::pair<const node_id,float>,
+              _Objty=std::pair<const node_id,float>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(463,69):
+          see reference to function template instantiation 'std::pair<const node_id,float>::pair<node_id&,_Ty,0>(_Other1,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=int,
+              _Other1=node_id &,
+              _Other2=int
+          ]
+  
+LINK : fatal error LNK1104: cannot open file 'C:\Users\ajklb\source\repos\Versatile-Loopy-AI\x64\Debug\Versatile-Loopy-AI.exe'
