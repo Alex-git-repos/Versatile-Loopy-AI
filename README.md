@@ -1,6 +1,6 @@
 # Versatile-Loopy-AI
 A beautiful for-looped x64 C++ program where you can edit and train your mini JSON AI. It's very incomplete.
-## Important! VLAI is no longer bugged, but it is undergoing testing before the next release.
+## Important! VLAI is no longer bugged, but it is undergoing testing before the next release. Do not use the published source code in this repository nor the executables yet.
 ## Building (VS 2022 Community needed)
 
 To manually build, make sure you have the .vs in the right place, then open the .sln, ignoring the already open tabs. On the top toolbar, change from Debug to Release, then click Build -> Build solution.
